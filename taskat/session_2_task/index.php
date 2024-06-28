@@ -30,31 +30,54 @@
 
 
 
- $products = [
+//  $products = [
 
-    'clothes' => [
+//     'clothes' => [
   
-      ['name' => 'x' ,'price' => 55 , 'date' => 'date 1'],
+//       ['name' => 'x' ,'price' => 55 , 'date' => 'date 1'],
   
-      ['name' => 'y' ,'price' => 100 , 'date' => 'date 1'],
+//       ['name' => 'y' ,'price' => 100 , 'date' => 'date 1'],
   
-    ],
+//     ],
   
-    'food' => [
+//     'food' => [
   
-      [ 'x' , 55 ,  'date 1'],
+//       [ 'x' , 55 ,  'date 1'],
   
-      [ 'y' , 100 ,  'date 1'],
+//       [ 'y' , 100 ,  'date 1'],
   
-    ]
+//     ]
   
-    ];
+//     ];
 
- echo $products ['clothes'] [0]['name'];
+//  echo $products ['clothes'] [0]['name'];
+
+// $is_usar = true;
+// $role_of_user= 'admin';
+// $statues = $is_usar == true ?   
+//         ($role_of_user != 'admin' ? '<button> logout</button>':
+//                                     '<button> logout</button><button> dashboard</button>')
+//           : '<button> login</button>' ;
 
 
 
 
+
+$x = true;
+$d = false;
+$e = true;
+
+var_dump( $x && $d || $e && !$x);
+
+
+
+
+
+
+
+// if (condition) {
+//   # code...
+// }
 
 
 
@@ -72,6 +95,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+ 
+  <?=$statues  ?>
+
+ 
+
+
+
+
 </body>
 </html>
