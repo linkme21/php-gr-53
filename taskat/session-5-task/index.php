@@ -83,15 +83,7 @@
 </head>
 <body>
 
-  <h3><?=$_POST['username']; ?></h3>
-  <h3><?=$_POST['Password']; ?></h3>
-  <h3><?=$_POST['Email']; ?></h3>
-  <h3><?=$_POST['color']; ?></h3>
-  <h3><?=$_POST['gender']; ?></h3>
-  <h3><?=$_POST['file']; ?></h3>
-  <h3><?=$_POST['price']; ?></h3>
-  <!-- <h3></h3> -->
-  <!-- <h3></h3> -->
+
   <?php
  
 // echo $_POST['course[]'];
